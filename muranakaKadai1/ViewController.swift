@@ -8,7 +8,6 @@
 import UIKit
 
 class ViewController: UIViewController {
-
     @IBOutlet private weak var textFieldNum1: UITextField!
     @IBOutlet private weak var textFieldNum2: UITextField!
     @IBOutlet private weak var textFieldNum3: UITextField!
@@ -18,7 +17,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         textFieldNum1.keyboardType = .numberPad
         textFieldNum2.keyboardType = .numberPad
         textFieldNum3.keyboardType = .numberPad
@@ -39,5 +37,4 @@ class ViewController: UIViewController {
         resultLabel.text = "\(result)"
 
     }
-
 }
